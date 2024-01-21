@@ -110,7 +110,6 @@ fun Delete(deleteProduct: () -> Unit, name: String, setShowDialog: (Boolean) -> 
                     )
 
                     Spacer(modifier = Modifier.height(20.dp))
-
                     Box(modifier = Modifier.padding(40.dp, 0.dp, 40.dp, 0.dp)) {
                         Button(
                             onClick = {
